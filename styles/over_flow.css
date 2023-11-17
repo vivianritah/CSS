@@ -1,0 +1,29 @@
+.about{
+    overflow: hidden;
+    background-color: coral;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+}
+.scroll{
+    overflow: scroll;
+    background-color: coral;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+}
+.auto{
+    overflow: auto;
+    background-color: coral;
+    text-align: right;
+    width: 200px;
+    height: 70px;
+}
+.xandy{
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: coral;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+}

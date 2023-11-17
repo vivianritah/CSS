@@ -1,0 +1,18 @@
+.a:active, a:active{
+    background-color: rebeccapurple;
+    color: blue;
+    text-align: center;
+}
+.a:hover, a:hover{
+    color: pink;
+    font-size: 30px;
+}
+.a:visited, a:visited{
+    color:red;
+    text-decoration: underline;
+
+}
+.contain{
+    gap: 2rem;
+    display: inline-flex;
+}

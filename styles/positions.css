@@ -1,0 +1,74 @@
+.relative{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 5px dashed blue;
+}
+
+.absolute{
+    right: 0px;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+}
+.static{
+    position: static;
+    width: 400px;
+    height: 200px;
+    border: 2px solid blue;
+
+}
+.fixed{
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    border: 2px dashed red;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(217, 217, 226);
+}
+
+/* Bottom left text */
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: blue;
+}
+
+/* Top left text */
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: blue;
+}
+
+/* Top right text */
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: blue;
+}
+
+/* Bottom right text */
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: blue;
+}
+
+/* Centered text */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: blue;
+}
